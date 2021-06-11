@@ -10,7 +10,7 @@ pipeline{
             steps{
             
                 git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
-                echo "git sucess"
+                
             }
         }
         stage('Compile'){
